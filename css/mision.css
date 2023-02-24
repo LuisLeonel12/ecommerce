@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+
+body{
+    background-color: rgb(104, 176, 243);
+    
+}
+
+.categorias{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.c-tarjeta{
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+#parrafo{
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h2{
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.categorias .c-tarjeta{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  width: 350px;
+  height: 450px;
+  box-shadow: 0 15px 18px rgba(0, 0, 0, 0.62);
+  margin: 10px;
+}
+
+.categorias .c-tarjeta:hover{
+width: 360px;
+height: 460px;
+cursor: pointer;
+background-color: rgb(10, 147, 226);
+color: white;
+}
+/*categorias*/

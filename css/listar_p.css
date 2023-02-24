@@ -1,0 +1,43 @@
+/*categorias*/
+.categorias-titulo{
+      border-radius: 7px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  
+  .categorias{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .c-tarjeta{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+
+  .categorias .c-tarjeta{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 15px 18px rgba(0, 0, 0, 0.62);
+    margin: 10px;
+  }
+  
+  .categorias .c-tarjeta:hover{
+  width: 260px;
+  height: 260px;
+  cursor: pointer;
+  background-color: orangered;
+  }
+  /*categorias*/

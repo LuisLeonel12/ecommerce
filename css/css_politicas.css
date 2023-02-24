@@ -1,0 +1,39 @@
+.footer{
+    background-color: var(--white);
+    /* padding-bottom: 7rem; */
+ }
+ 
+ .footer .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+    align-items: flex-start;
+ }
+ 
+ .footer .grid .box h3{
+    font-size: 2rem;
+    color:var(--black);
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+ }
+ 
+ .footer .grid .box a{
+    display: block;
+    margin:1.5rem 0;
+    font-size: 1.7rem;
+    color:var(--light-color);
+ }
+ 
+ .footer .grid .box a i{
+    padding-right: 1rem;
+    color:var(--main-color);
+    transition: .2s linear;
+ }
+ 
+ .footer .grid .box a:hover{
+    color:var(--main-color);
+ }
+ 
+ .footer .grid .box a:hover i{
+    padding-right: 2rem;
+ }
